@@ -1,0 +1,395 @@
+body{
+  margin:0;
+}
+
+/*Fonta families*/
+/**************************************************************************************************/
+/**************************************************************************************************/
+.italianno{
+  font-family: "Italianno", cursive;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Bacasime{
+  font-family: "Bacasime Antique", cursive;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.imperial{
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+
+.anaheim {
+  font-family: "Anaheim", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 18px;
+}
+
+
+.cinzel{
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+/*Font Colors*/
+/**************************************************************************************************/
+/**************************************************************************************************/
+.white{
+  color: white;
+}
+.black{
+  color:black;
+}
+.gray{
+  color: gray;
+}
+/**************************************************************************************************/
+/**************************************************************************************************/
+.texto-en-imagen{
+  position: relative;
+  bottom:35vh;
+  border-style: none;
+  width: 90%;
+}
+
+/*Contenedores-espaciador*/
+/**************************************************************************************************/
+/**************************************************************************************************/
+
+.contenedor-grande{
+  display:flex; /*flex*/
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;/*ELIMINAR*/
+  position:relative;
+  overflow: hidden;
+  border-style: none;
+}
+
+.contenedor-mediano{
+  display:flex; /*flex*/
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 100%;
+  height: 70vh;
+  background-color: white;/*ELIMINAR*/
+  position:relative;
+  overflow: hidden;
+  border-style: none;
+}
+
+.contenedor-chico{
+  display:flex; /*flex*/
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 100%;
+  height: 45vh;
+  background-color: white;/*ELIMINAR*/
+  position:relative;
+  overflow: hidden;
+  border-style: none;
+}
+
+.contenedor-extra-chico{
+  display:flex; /*flex*/
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 100%;
+  height: 35vh;
+  background-color: white;/*ELIMINAR*/
+  position:relative;
+  overflow: hidden;
+  border-style: none;
+}
+
+.espaciador{
+  display:flex; /*flex*/
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  background-color: white;/*ELIMINAR*/
+  position:relative;
+  overflow: hidden;
+}
+
+/**************************************************************************************************/
+/**************************************************************************************************/
+
+.top{
+  position: absolute;
+  top:-5%;
+}
+.bottom{
+  position: absolute;
+  bottom: -5%;
+}
+.left{
+  position: absolute;
+  left: -5%;
+}
+
+.right{
+  position: absolute;
+  right: -5%;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+}
+.center{
+  position: absolute;
+  left: 50%;
+}
+
+.deg-45{
+  transform: rotate(45deg);
+}
+.deg-90{
+  transform: rotate(90deg);
+}
+.deg-135{
+  transform: rotate(135deg);
+}
+.deg-180{
+  transform: rotate(180deg);
+}
+.deg-270{
+  transform: rotate(270deg);
+}
+.deg-360{
+  transform: rotate(360deg);
+}
+/**************************************************************************************************/
+/**************************************************************************************************/
+
+.imagen-chica{
+  width: 15%;
+}
+.imagen-mediana{
+  width: 25%;
+}
+
+.imagen-grande{
+width: 40%;  
+}
+.imagen-extra-grande{
+  width: 60%;
+}
+.imagen-jumbo{
+  width: 75%;
+}
+/*IMAGES*/
+/********************************************************************************/
+/********************************************************************************/
+.cover{
+  background-image: url('img/cover.png');
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+.img1{
+  background-image: url('img/img-001.jpeg');      
+}
+.img2{
+  background-image: url('img/img-002.jpeg');      
+}
+.img3{
+  background-image: url('img/img-003.jpeg');    
+}
+
+.img4{
+  background-image: url('img/img-004.jpeg');
+}
+
+.img5{
+  background-image: url('img/img-005.jpeg');
+}
+
+.img6{
+  background-image: url('img/img-006.jpeg');
+}
+
+.img7{
+  background-image: url('img/img-007.jpeg');
+}
+.img8{
+  background-image: url('img/img-008.jpeg');
+}
+
+.img9{
+  background-image: url('img/img-009.jpeg');
+}
+
+
+.bg{
+  background-size:cover;   /*contain*/
+  background-position: center;   /* Centers the image */
+  background-repeat: no-repeat;  /* Prevents tiling */
+  background-attachment: scroll ;
+}
+
+.bg1{
+  background-image: url('img/background2.avif');
+}
+
+.bg2{
+  background-image: url(img/background1.png);
+}
+
+
+
+/*EFECTOS*
+/***************************************************************************************************/
+/***************************************************************************************************/
+.left-slide{
+ 
+  position: absolute;
+  left: 0%;
+  bottom: -7%;
+  transition: transform ease 2.5s;
+  transform: rotate(90deg) translateY(70%);
+}
+.left-slide-on{
+  position: absolute;
+  left: 0%;
+  bottom: -7%;
+  transform: rotate(90deg) translateY(15%);
+}
+
+
+
+.zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
+  Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
+  "container-img"    */
+  transition: transform 2.5s, opacity 0.5s ;
+  transform: scale(1);
+}
+
+.zoom-on{
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.vanish-off{
+  display:flex;
+  transition: transform ease 2.5s ;
+  opacity: 1;
+}
+
+.vanish-on{
+  height: 0px;
+  width: 0px;
+  display: flex;
+  transition: transform ease 2.5s;
+  opacity: 0;
+}
+
+/*CONTADOR*/
+/********************************************************************************/
+/********************************************************************************/
+.counter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{ 
+  padding: 25px;
+
+}
+
+
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+/*Buttons*/
+
+a{
+  color: black;
+  text-decoration: none;
+
+}
+
+.button{
+  margin: 3%;
+  border-radius: 0%;
+  width: 160px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: white;
+  border-style:none;
+  border-color:white;
+  box-shadow: 0 4px 12px rgba(1, 1, 0, 0.5);
+  
+}
+
+.button:hover{
+  box-shadow: 0 4px 12px rgba(1, 1, 5, 5);
+}
+
+.button-bg{
+  margin: 3%;
+  border-radius: 0%;
+  width: 160px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  border-style:none;
+  border-color:white;
+  box-shadow: 0 4px 12px rgba(1, 1, 0, 0.5);
+}
+
+.button-bg:hover{
+  margin: 3%;
+  border-radius: 0%;
+  width: 160px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  border-style:none;
+  border-color:white;
+  box-shadow: 0 4px 12px rgba(1, 1, 5, 5);
+}
+
+.button-transparent{
+  margin: 3%;
+  border-radius: 0%;
+  width: 160px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  border-style:none;
+  
+}
+
+
+div,p, img{
+  border-style: none;
+  margin: 0%;
+
+}
