@@ -214,36 +214,36 @@ width: 40%;
   z-index: 1;
 }
 .img1{
-  background-image: url('img/018.jpg');      
+  background-image: url('img/021.jpg');     
 }
 .img2{
-  background-image: url('img/img-002.jpeg');      
+  background-image: url('img/029.jpg');      
 }
 .img3{
-  background-image: url('img/img-003.jpeg');    
+  background-image: url('');    
 }
 
 .img4{
-  background-image: url('img/img-004.jpeg');
+  background-image: url('');
 }
 
 .img5{
-  background-image: url('img/img-005.jpeg');
+  background-image: url('');
 }
 
 .img6{
-  background-image: url('img/img-006.jpeg');
+  background-image: url('');
 }
 
 .img7{
-  background-image: url('img/img-007.jpeg');
+  background-image: url('');
 }
 .img8{
-  background-image: url('img/img-008.jpeg');
+  background-image: url('');
 }
 
 .img9{
-  background-image: url('img/img-009.jpeg');
+  background-image: url('');
 }
 
 
@@ -259,7 +259,7 @@ width: 40%;
 }
 
 .bg2{
-  background-image: url(img/background1.png);
+  background-image: url('img/background1.png');
 }
 
 
@@ -287,12 +287,12 @@ width: 40%;
 .zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
   Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
   "container-img"    */
-  transition: transform 4s, opacity 0.5s ;
-  transform: scale(.7);
+  transition: transform ease 4s, opacity 0.5s ;
+  transform: scale(.3);
 }
 
 .zoom-on{
-  transform: scale(1);
+  transform: scale(.5);
   opacity: 1;
 }
 
