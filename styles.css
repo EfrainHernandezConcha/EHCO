@@ -63,7 +63,7 @@ body{
 /**************************************************************************************************/
 .texto-en-imagen{
   position: relative;
-  bottom:35vh;
+  bottom:41vh;
   border-style: none;
   width: 90%;
 }
@@ -214,7 +214,7 @@ width: 40%;
   z-index: 1;
 }
 .img1{
-  background-image: url('img/img-001.jpeg');      
+  background-image: url('img/018.jpg');      
 }
 .img2{
   background-image: url('img/img-002.jpeg');      
