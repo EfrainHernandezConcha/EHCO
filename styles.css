@@ -220,7 +220,7 @@ width: 40%;
   background-image: url('img/029.jpg');      
 }
 .img3{
-  background-image: url('');    
+  background-image: url('img/050.jpg');    
 }
 
 .img4{
@@ -288,7 +288,7 @@ width: 40%;
   Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
   "container-img"    */
   transition: transform ease 4s, opacity 0.5s ;
-  transform: scale(.3);
+  transform: scale(.4);
 }
 
 .zoom-on{
