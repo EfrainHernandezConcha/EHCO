@@ -287,12 +287,12 @@ width: 40%;
 .zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
   Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
   "container-img"    */
-  transition: transform 2.5s, opacity 0.5s ;
-  transform: scale(1);
+  transition: transform 4s, opacity 0.5s ;
+  transform: scale(.7);
 }
 
 .zoom-on{
-  transform: scale(1.2);
+  transform: scale(1);
   opacity: 1;
 }
 

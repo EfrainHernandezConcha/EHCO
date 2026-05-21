@@ -45,11 +45,12 @@ function zoomScroll() {
   zoom.forEach(el => {
     const distancia = el.getBoundingClientRect().top;
 
-    if (distancia < alturaPantalla - 50) {
+    if (distancia < alturaPantalla - 80) {
       el.classList.add('zoom-on');
     }
     else {
-        el.classList.remove('zoom-on')
+        el.classList.remove('zoom-on');
+        el.classList.add('zoom');
       }
   });
 }
