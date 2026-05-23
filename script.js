@@ -134,3 +134,29 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
         actualizarContador();
 
         const intervalo = setInterval(actualizarContador, 1000);
+
+
+
+        const { innerHeight } = window;
+
+        // zoom-out
+        gsap.from("#zoom-out", {
+            scale: .5, stagger: 0.25, duration: 1,
+            scrollTrigger: {
+                trigger: "#zoom-out",
+                pin: false,
+                end: `+=${innerHeight * 8}`,
+                scrub: 3
+            }
+        });
+        
+        // zoom-in
+        gsap.to("#zoom-in", {
+            scale: .8, stagger: 0.25, duration: 3,
+            scrollTrigger: {
+                trigger: "#zoom-in",
+                pin: false,
+                end: `+=${innerHeight * 1.3}`,
+                scrub: 3
+            }
+        });
