@@ -141,7 +141,7 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
 
         // zoom-out
         gsap.from("#zoom-out", {
-            scale: .5, stagger: 0.25, duration: 1,
+            scale: .4, stagger: 0.25, duration: 1,
             scrollTrigger: {
                 trigger: "#zoom-out",
                 pin: false,
@@ -151,12 +151,23 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
         });
         
         // zoom-in
-        gsap.to("#zoom-in", {
+        gsap.to("#zoom-in-1", {
             scale: .35, stagger: 0.25, duration: 3,
             scrollTrigger: {
-                trigger: "#zoom-in",
+                trigger: "#zoom-in-1",
                 pin: false,
-                end: `+=${innerHeight * 1.9}`,
+                end: `+=${innerHeight * 2}`,
                 scrub: 3
             }
         });
+
+        // zoom-in
+        gsap.to("#zoom-in-2", {
+          scale: .35, stagger: 0.25, duration: 3,
+          scrollTrigger: {
+              trigger: "#zoom-in-2",
+              pin: false,
+              end: `+=${innerHeight * 2}`,
+              scrub: 3
+          }
+      });
