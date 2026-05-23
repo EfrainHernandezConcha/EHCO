@@ -156,7 +156,7 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
             scrollTrigger: {
                 trigger: "#zoom-in",
                 pin: false,
-                end: `+=${innerHeight * 1.3}`,
+                end: `+=${innerHeight * 2.2}`,
                 scrub: 3
             }
         });
