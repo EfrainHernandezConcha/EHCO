@@ -18,7 +18,6 @@ body{
   font-size: 20px;
   font-weight: 300;
   font-style: normal;
-
 }
 
 .imperial{
@@ -44,7 +43,7 @@ body{
   font-weight: weight;
   font-style: normal;
   font-size: 16px;
-
+  text-transform: capitalize ;
 }
 
 .fs-15{
@@ -52,6 +51,9 @@ body{
 }
 .fs-20{
   font-size: 20px;
+}
+.fs-30{
+  font-size: 30px;
 }
 .fs-50{
   font-size: 50px;
@@ -331,6 +333,7 @@ width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 90%;
 }
 .box{ 
   padding: 25px;
