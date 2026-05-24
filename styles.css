@@ -139,6 +139,10 @@ body{
   border-style: none;
 }
 
+.max-width{
+  width: 90%;
+}
+
 .espaciador{
   display:flex; /*flex*/
   align-items: center;
