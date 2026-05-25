@@ -226,7 +226,7 @@ width: 40%;
   width: 60%;
 }
 .imagen-jumbo{
-  width: 75%;
+  width: 90%;
 }
 /*IMAGES*/
 /********************************************************************************/
@@ -282,7 +282,7 @@ width: 40%;
 }
 
 .bg1{
-  background-image: url('img/bg-menta.png');
+  background-image: url('img/bg-yellow.webp');
 }
 
 .bg2{
