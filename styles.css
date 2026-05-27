@@ -230,7 +230,7 @@ width: 40%;
 /********************************************************************************/
 /********************************************************************************/
 .cover{
-  background-image: url('img/k&R.png');
+  background-image: url('Kari-Rafa/img/k&R.png');
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -240,29 +240,29 @@ width: 40%;
 }
 
 .main{
-  background-image: url('img/main.png');
+  background-image: url('Kari-Rafa/img/main.png');
 }
 
 .img1{
-  background-image: url('img/024.jpg');     
+  background-image: url('Kari-Rafa/img/024.jpg');     
 }
 .img2{
-  background-image: url('img/029.jpg');      
+  background-image: url('Kari-Rafa/img/029.jpg');      
 }
 .img3{
-  background-image: url('img/051.jpg');    
+  background-image: url('Kari-Rafa/img/051.jpg');    
 }
 
 .img4{
-  background-image: url('img/052.jpg');
+  background-image: url('Kari-Rafa/img/052.jpg');
 }
 
 .img5{
-  background-image: url('img/033.jpg');
+  background-image: url('Kari-Rafa/img/033.jpg');
 }
 
 .img6{
-  background-image: url('img/069.jpg');
+  background-image: url('Kari-Rafa/img/069.jpg');
 }
 
 .img7{
@@ -285,11 +285,11 @@ width: 40%;
 }
 
 .bg1{
-  background-image: url('img/bg-yellow.png');
+  background-image: url('Kari-Rafa/img/bg-yellow.png');
 }
 
 .bg2{
-  background-image: url('img/background1.png');
+  background-image: url('Kari-Rafa/img/background1.png');
 }
 
 
