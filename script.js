@@ -161,6 +161,17 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
           }
       });
 
+        // zoom-out
+        gsap.from("#zoom-out-3", {
+          scale: .4, stagger: 0.25, duration: 1,
+          scrollTrigger: {
+              trigger: "#zoom-out-3",
+              pin: false,
+              end: `+=${innerHeight * 8}`,
+              scrub: 3
+          }
+      });
+
 
         
         // zoom-in
