@@ -70,10 +70,19 @@ img{
     margin: 0%;
 }
 
+.imagen-extra-grande{
+    width: 25%;
+}
+
+
+
 @media (max-width:768px ) {
     img{
         width: 100%;
         height: auto;   
+    }
+    .imagen-extra-grande{
+        width:65%;
     }
 }
 
