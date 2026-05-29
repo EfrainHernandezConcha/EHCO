@@ -69,6 +69,10 @@ body{
 .fs-15{
   font-size: 15px;
 }
+
+.fs-18{
+  font-size: 18px;
+}
 .fs-20{
   font-size: 20px;
 }
@@ -92,6 +96,9 @@ body{
   color: white;
 }
 .black{
+  color: black;
+}
+.gray-shadow{
   color: transparent;
   background-color: rgba(13, 13, 13, 0.7);
   -webkit-background-clip: text;
