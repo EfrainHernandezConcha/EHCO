@@ -1,0 +1,496 @@
+body{
+    margin:0;
+  }
+  
+  /*Fonta families*/
+  /**************************************************************************************************/
+  /**************************************************************************************************/
+  .italianno{
+    font-family: "Italianno", cursive;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .Bacasime{
+    font-family: "Bacasime Antique", cursive;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .imperial{
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+  
+  
+  .anaheim {
+    font-family: "Anaheim", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 18px;
+  }
+  
+  
+  .cinzel{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: capitalize ;
+  }
+  
+  
+  .forum {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .parisienne {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+  .fs-12{
+    font-size: 12px;
+  }
+  
+  .fs-15{
+    font-size: 15px;
+  }
+  
+  .fs-18{
+    font-size: 18px;
+  }
+  .fs-20{
+    font-size: 20px;
+  }
+  .fs-25{
+    font-size: 25px;
+  }
+  .fs-30{
+    font-size: 30px;
+  }
+  .fs-50{
+    font-size: 50px;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  
+  /*Font Colors*/
+  /**************************************************************************************************/
+  /**************************************************************************************************/
+  .white{
+    color: white;
+  }
+  .black{
+    color: black;
+  }
+  .gray-shadow{
+    color: transparent;
+    background-color: rgba(13, 13, 13, 0.7);
+    -webkit-background-clip: text;
+    text-shadow: rgba(255,255,255,0.2) 0 5px 6px, rgba(51, 50, 50, 0.2) 1px 3px 3px;
+  
+  }
+  .gray{
+    color: gray;
+  }
+  /**************************************************************************************************/
+  /**************************************************************************************************/
+  .texto-en-imagen{
+    position: relative;
+    bottom:41vh;
+    border-style: none;
+    width: 90%;
+  }
+  
+  /*Contenedores-espaciador*/
+  /**************************************************************************************************/
+  /**************************************************************************************************/
+  
+  .contenedor-grande{
+    display:flex; /*flex*/
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;/*ELIMINAR*/
+    position:relative;
+    overflow: hidden;
+    border-style: none;
+  }
+  
+  .contenedor-mediano{
+    display:flex; /*flex*/
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    background-color: white;/*ELIMINAR*/
+    position:relative;
+    overflow: hidden;
+    border-style: none;
+  }
+  
+  .contenedor-chico{
+    display:flex; /*flex*/
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    height: 45vh;
+    background-color: white;/*ELIMINAR*/
+    position:relative;
+    overflow: hidden;
+    border-style: none;
+  }
+  
+  .contenedor-extra-chico{
+    display:flex; /*flex*/
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    height: 35vh;
+    background-color: white;/*ELIMINAR*/
+    position:relative;
+    overflow: hidden;
+    border-style: none;
+  }
+  
+  
+  .espaciador{
+    display:flex; /*flex*/
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    background-color: white;/*ELIMINAR*/
+    position:relative;
+    overflow: hidden;
+  }
+  
+  
+  /**************************************************************************************************/
+  /**************************************************************************************************/
+  
+  .top{
+    position: absolute;
+    top:-5%;
+  }
+  .bottom{
+    position: absolute;
+    bottom: -5%;
+  }
+  .left{
+    position: absolute;
+    left: -5%;
+  }
+  
+  .right{
+    position: absolute;
+    right: -5%;
+  }
+  .middle{
+    position: absolute;
+    top: 50%;
+  }
+  .center{
+    position: absolute;
+    left: 50%;
+  }
+  
+  .deg-45{
+    transform: rotate(45deg);
+  }
+  .deg-90{
+    transform: rotate(90deg);
+  }
+  .deg-135{
+    transform: rotate(135deg);
+  }
+  .deg-180{
+    transform: rotate(180deg);
+  }
+  .deg-270{
+    transform: rotate(270deg);
+  }
+  .deg-360{
+    transform: rotate(360deg);
+  }
+  /**************************************************************************************************/
+  /**************************************************************************************************/
+  
+  .imagen-chica{
+    width: 15%;
+  }
+  .imagen-mediana{
+    width: 25%;
+  }
+  
+  .imagen-grande{
+  width: 40%;  
+  }
+  .imagen-extra-grande{
+    width: 60%;
+  }
+  .imagen-jumbo{
+    width: 90%;
+  }
+  /*IMAGES*/
+  /********************************************************************************/
+  /********************************************************************************/
+  .cover{
+    background-image: url('Kari-Rafa/img/k&R.webp');
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    scale: 1;
+  }
+  
+  .main{
+    background-image: url('');
+  }
+  
+  .img1{
+    background-image: url('');     
+  }
+  .img2{
+    background-image: url('');      
+  }
+  .img3{
+    background-image: url('');    
+  }
+  
+  .img4{
+    background-image: url('');
+  }
+  
+  .img5{
+    background-image: url('');
+  }
+  
+  .img6{
+    background-image: url('');
+  }
+  
+  .img7{
+    background-image: url('');
+  }
+  .img8{
+    background-image: url('');
+  }
+  
+  .img9{
+    background-image: url('');
+  }
+  
+  
+  .bg{
+    background-size:cover;   /*contain*/
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+    background-attachment: scroll ;
+  }
+  
+  .bg1{
+    background-image: url('cynthia-sergio/img/bg-menta.png');
+  }
+  
+  .bg2{
+    background-image: url('Kari-Rafa/img/background1.png');
+  }
+  
+  
+  
+  /*EFECTOS*
+  /***************************************************************************************************/
+  /***************************************************************************************************/
+  .left-slide{
+   
+    position: absolute;
+    left: 0%;
+    bottom: -7%;
+    transition: transform ease 2.5s;
+    transform: rotate(90deg) translateY(70%);
+  }
+  .left-slide-on{
+    position: absolute;
+    left: 0%;
+    bottom: -7%;
+    transform: rotate(90deg) translateY(15%);
+  }
+  
+  
+  
+  .zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
+    Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
+    "container-img"    */
+    transition: transform ease 4s, opacity 0.5s ;
+    transform: scale(.4);
+  }
+  
+  .zoom-on{
+    transform: scale(.5);
+    opacity: 1;
+  }
+  
+  .vanish-off{
+    display:flex;
+    transition: transform ease 2.5s ;
+    opacity: 1;
+  }
+  
+  .vanish-on{
+    height: 0px;
+    width: 0px;
+    display: flex;
+    transition: transform ease 2.5s;
+    opacity: 0;
+  }
+  
+  /*CONTADOR*/
+  /********************************************************************************/
+  /********************************************************************************/
+  
+  
+  .Counter-contenedor{
+    position: relative;
+    top: 20%;
+    width: 90%;
+  
+  }
+  
+  .counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  
+    width: 100%;/*********************/
+  }
+  .box{ 
+    padding: 10px;
+    margin: 2%;
+    border-radius: 10%;
+    width: 65px;
+    height: 40px;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.5);
+  
+  }
+  
+  
+  /********************************************************************/
+  /********************************************************************/
+  /********************************************************************/
+  /*Buttons*/
+  
+  a{
+    color: rgb(83, 82, 82);
+    text-decoration: none;
+  
+  }
+  
+  .button{
+    margin: 3%;
+    border-radius: 0%;
+    width: 160px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: white;
+    border-style:none;
+    border-color:white;
+    box-shadow: 0 4px 12px rgba(1, 1, 0, 0.5);
+    
+  }
+  
+  .button:hover{
+    box-shadow: 0 4px 12px rgba(1, 1, 5, 5);
+  }
+  
+  .button-bg{
+    margin: 3%;
+    border-radius: 0%;
+    width: 160px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border-style:none;
+    border-color:white;
+    box-shadow: 0 4px 12px rgba(1, 1, 0, 0.5);
+  }
+  
+  .button-bg:hover{
+    margin: 3%;
+    border-radius: 0%;
+    width: 160px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border-style:none;
+    border-color:white;
+    box-shadow: 0 4px 12px rgba(1, 1, 5, 5);
+  }
+  
+  .button-transparent{
+    margin: 3%;
+    border-radius: 0%;
+    width: 160px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border-style:none;
+    
+  }
+  
+  
+  div,p, img{
+    border-style: none;
+    margin: 0%;
+  
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  
+  
+  /*Eliminar la clase zoom que ya no se utilizara*/
+  
+  
