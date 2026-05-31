@@ -195,3 +195,22 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
               scrub: 3
           }
       });
+
+//FUNCION APPEAR-ON-SCROLL
+const appear = document.querySelectorAll('.appear');
+function appearScroll() {
+  const alturaPantalla = window.innerHeight;
+
+  appear.forEach(el => {
+    const distancia = el.getBoundingClientRect().top;
+
+    if (distancia < alturaPantalla - 10) {
+      el.classList.add('appear-on');
+    }
+    else {
+        el.classList.remove('appear-on');
+        el.classList.add('appear');
+      }
+  });
+}
+window.addEventListener('scroll', appearScroll);

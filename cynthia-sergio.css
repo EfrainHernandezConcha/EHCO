@@ -122,20 +122,6 @@ body{
   /**************************************************************************************************/
   
 
-  .window{
-    float: right;
-    border-style: solid;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(116, 67, 67,0.5);
-  }
-
-  .fixed-top{
-    position: fixed;
-    bottom: 65%;
-  }
-
 
   .contenedor-grande{
     display:flex; /*flex*/
@@ -256,9 +242,6 @@ body{
   /**************************************************************************************************/
   /**************************************************************************************************/
   
-  .lay{
-    position: absolute;
-  }
 
 
   .imagen-chica{
@@ -281,7 +264,7 @@ body{
   /********************************************************************************/
   /********************************************************************************/
   .cover{
-    background-image: url('Kari-Rafa/img/k&R.webp');
+    background-image: url('cynthia-sergio/img/sobre-blanco.webp');
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -291,7 +274,7 @@ body{
   }
   
   .main{
-    background-image: url('');
+    background-image: url('cynthia-sergio/img/main.webp');
   }
   
   .img1{
@@ -390,7 +373,19 @@ body{
     transition: transform ease 2.5s;
     opacity: 0;
   }
+
+
+  .appear{
+    transition: transform ease 4s, opacity 2s ;
+    opacity: 0;
+    transform: scale(.9);
+  }
   
+  .appear-on{
+    transform: scale(1);
+    opacity: 1;
+
+  }
   /*CONTADOR*/
   /********************************************************************************/
   /********************************************************************************/
