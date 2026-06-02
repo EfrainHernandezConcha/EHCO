@@ -23,27 +23,6 @@ nav{
     border-color: rebeccapurple;
 }
 
-ul{
-    
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 80%;
-
-    border-style: solid;
-    border-color: red;
-}
-
-li{
-    width: 25%;
-    text-decoration:none;
-    list-style-type: none;
-
-    border-style: solid;
-    border-color: green;
-}
-
 
 header{
     height: 100vh;
@@ -94,3 +73,12 @@ img{
 }
 
 
+.gold{
+    color: rgb(159, 128, 50) ;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h2{
+    height: 60px;
+}
