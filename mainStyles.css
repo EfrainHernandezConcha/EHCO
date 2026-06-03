@@ -2,26 +2,64 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: black;
-    background-image: url('img/main.png');
-    background-repeat: repeat;
+
+
 }
 
-nav{
-    background-color: black;
+
+
+
+.white{
     color: white;
-    height: 15%;
+}
+
+.z10{
+    position: relative;
+    z-index: 10;
+}
+
+.container{ /***********************/
+    text-transform: uppercase;
+    background-color: white;
+    height:70vh;
     width: 100%;
-
-
     align-items: center;
     text-align: center;
     justify-content: center;
-
-
     border-style: solid;
-    border-color: rebeccapurple;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(183, 163, 83);
+    overflow: hidden;
+
 }
+
+@media (min-width:768px ) { /**********************/
+    .container{
+        width: 60%;
+        display: flex;
+        position: relative;
+        left: 20%;
+    }
+    video{
+        top:15vh;
+        scale: 1.2;
+    }
+}
+
+video{
+    position: relative;
+    bottom: 30vh;
+    
+}
+
+
+
+
+
+
+
+
 
 
 header{

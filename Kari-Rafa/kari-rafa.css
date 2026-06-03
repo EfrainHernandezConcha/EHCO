@@ -399,9 +399,31 @@ width: 40%;
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  /****/
+
+}
+
+.video-counter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  /****/
+  position: relative;
+  bottom: 100px;
+  height: 0px;
 
   width: 100%;/*********************/
 }
+
+video{
+  position: relative;
+
+}
+
+
+
+
 .box{ 
   padding: 10px;
   margin: 2%;
