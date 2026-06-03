@@ -196,6 +196,8 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
           }
       });
 
+
+
 //FUNCION APPEAR-ON-SCROLL
 const appear = document.querySelectorAll('.appear');
 function appearScroll() {
