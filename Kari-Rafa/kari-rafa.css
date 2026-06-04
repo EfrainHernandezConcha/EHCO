@@ -331,13 +331,29 @@ width: 40%;
   left: 0%;
   bottom: -7%;
   transition: transform ease 2.5s;
-  transform: rotate(90deg) translateY(70%);
+  transform: rotate(180deg) translateX(70%);
 }
 .left-slide-on{
   position: absolute;
   left: 0%;
   bottom: -7%;
-  transform: rotate(90deg) translateY(15%);
+  transform: rotate(180deg) translateX(15%);
+}
+
+
+.right-slide{
+ 
+  position: absolute;
+  right: 0%;
+  bottom: -7%;
+  transition: transform ease 2.5s;
+  transform: rotate(0deg) translateX(70%);
+}
+.right-slide-on{
+  position: absolute;
+  right: 0%;
+  bottom: -7%;
+  transform: rotate(0deg) translateX(10%);
 }
 
 
@@ -355,17 +371,30 @@ width: 40%;
 }
 
 .vanish-off{
-  display:flex;
-  transition: transform ease 2.5s ;
+  /*display:flex;*/
+  /*transition: transform ease-in 2.5s ;*/
+
+  transition: transform ease 2s, opacity 2s;
   opacity: 1;
+  transform: scale(1);
+
+  /*opacity: 1;/*
+  /*scale: 1;*/
 }
 
 .vanish-on{
-  height: 0px;
-  width: 0px;
-  display: flex;
-  transition: transform ease 2.5s;
+  /*height: 0px;*/
+  /*width: 0px;*/
+  /*display: flex;*/
+  /*transition: transform ease-in 2.5;*/
+
+  transition: transform ease 20s, opacity 2s;
   opacity: 0;
+  transform: scale(0);
+  
+  /*opacity: 1;*/
+  /*scale: 2;*/
+
 }
 
 
@@ -542,10 +571,11 @@ h2 {
 
 
 
-video{
+.video{
   position: relative;
-  bottom: 25vh;
-  scale: 1.4;
+  width: 100%;
+  top: -130px;
+  scale: 1.1;
   
 }
 

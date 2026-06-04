@@ -75,6 +75,27 @@ function slideScroll() {
 window.addEventListener('scroll', slideScroll);
 
 
+//FUNCION SLIDE-ON-SCROLL
+const slideRight = document.querySelectorAll('.right-slide');
+function slideRightScroll() {
+  const alturaPantalla = window.innerHeight;
+
+  slideRight.forEach(el => {
+    const distancia = el.getBoundingClientRect().top;
+
+    if (distancia < alturaPantalla - 50) {
+      el.classList.add('right-slide-on');
+    }
+    else {
+        el.classList.remove('right-slide-on')
+      }
+  });
+}
+window.addEventListener('scroll', slideRightScroll);
+
+
+
+
 //REPRODUCTOR DE MUSICA
 const audio = document.getElementById('miAudio');
 const button = document.getElementById('botonPlay');
@@ -82,10 +103,10 @@ const button = document.getElementById('botonPlay');
 button.addEventListener('click', function() {
     if (audio.paused) {
         audio.play();
-        button.innerHTML = '❚❚'; // Cambia a icono de pausa
+        button.innerHTML = ''; // Cambia a icono de pausa
     } else {
         audio.pause();
-        button.innerHTML = '▶'; // Cambia a icono de play
+        button.innerHTML = ''; // Cambia a icono de play
     }
 });
 
@@ -185,13 +206,20 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
             }
         });
 
+
+
+
+
+
+
+
         // zoom-in
-        gsap.to("#zoom-in-2", {
-          scale: .40, stagger: 0.25, duration: 3,
+        gsap.from("#zoom-in-2", {
+          scale: .6, stagger: 0.25, duration: 3,
           scrollTrigger: {
               trigger: "#zoom-in-2",
               pin: false,
-              end: `+=${innerHeight * 2}`,
+              end: `+=${innerHeight * 15}`,
               scrub: 3
           }
       });
