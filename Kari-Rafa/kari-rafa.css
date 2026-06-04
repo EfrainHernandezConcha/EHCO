@@ -530,3 +530,66 @@ h2 {
 
 /*Eliminar la clase zoom que ya no se utilizara*/
 
+.flex-container{ /***********************/
+  text-transform: uppercase;
+  background-color: white;
+  height:70vh;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: rgb(183, 163, 83);
+  overflow: hidden;
+
+}
+
+
+
+video{
+  position: relative;
+  bottom: 30vh;
+  
+}
+
+
+@media (min-width:500px ) { /**********************/
+  .flex-container{
+      width: 100%;
+      display: flex;
+      position: relative;
+      left: 0%;
+  }
+  video{
+      top:0vh;
+      scale: 1.2;
+  }
+}
+
+@media (min-width:768px ) { /**********************/
+  .flex-container{
+      width: 70%;
+      display: flex;
+      position: relative;
+      left: 15%;
+  }
+  video{
+      top:0vh;
+      scale: 1.2;
+  }
+}
+
+@media (min-width:1200px ) { /**********************/
+  .flex-container{
+      width: 60%;
+      display: flex;
+      position: relative;
+      left: 20%;
+  }
+  video{
+      top:15vh;
+      scale: 1.2;
+  }
+}
