@@ -432,26 +432,6 @@ width: 40%;
 
 }
 
-.video-counter{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  /****/
-  position: relative;
-  bottom: 100px;
-  height: 0px;
-
-  width: 100%;/*********************/
-}
-
-video{
-  position: relative;
-
-}
-
-
-
 
 .box{ 
   padding: 10px;
@@ -571,11 +551,11 @@ h2 {
 
 
 
-.video{
+.video-flex{
   position: relative;
   width: 100%;
-  top: -130px;
-  scale: 1.1;
+  top: 0px;
+  scale: 1.9;
   
 }
 
@@ -587,7 +567,7 @@ h2 {
       position: relative;
       left: 0%;
   }
-  video{
+  .video-flex{
       top:0vh;
       scale: 1.2;
   }
@@ -600,7 +580,7 @@ h2 {
       position: relative;
       left: 15%;
   }
-  video{
+  .video-flex{
       top:0vh;
       scale: 1.2;
   }
@@ -613,7 +593,7 @@ h2 {
       position: relative;
       left: 20%;
   }
-  video{
+  .video-flex{
       top:15vh;
       scale: 1.2;
   }
