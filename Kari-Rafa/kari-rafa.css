@@ -555,7 +555,7 @@ h2 {
   position: relative;
   width: 100%;
   top: 0px;
-  scale: 1.9;
+  scale: 2.8;
   
 }
 
@@ -569,7 +569,7 @@ h2 {
   }
   .video-flex{
       top:0vh;
-      scale: 1.2;
+      scale: 2.5;
   }
 }
 
@@ -582,7 +582,7 @@ h2 {
   }
   .video-flex{
       top:0vh;
-      scale: 1.2;
+      scale: 2.5;
   }
 }
 
@@ -595,6 +595,6 @@ h2 {
   }
   .video-flex{
       top:15vh;
-      scale: 1.2;
+      scale: 2.5;
   }
 }
