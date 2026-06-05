@@ -162,7 +162,7 @@ const fechaObjetivo = new Date("Oct 31, 2026 16:00:00").getTime();
 
         // zoom-out
         gsap.from("#zoom-out-1", {
-            scale: .4, stagger: 0.25, duration: 1,
+            scale: .5, stagger: 0.25, duration: 1,
             scrollTrigger: {
                 trigger: "#zoom-out-1",
                 pin: false,
