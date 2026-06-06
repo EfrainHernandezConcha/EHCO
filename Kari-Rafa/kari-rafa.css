@@ -554,47 +554,189 @@ h2 {
 .video-flex{
   position: relative;
   width: 100%;
-  top: 0px;
-  scale: 2.8;
+  bottom: 26vh;
+  scale: 1.3;
   
 }
 
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/************ M E D I A  F O R L A P T O P *************/
+/*******************************************************/
+/*******************************************************/
 
-@media (min-width:500px ) { /**********************/
+
+@media (min-width:1025px ) { /**********************/
   .flex-container{
+      width: 50%;
+      display: flex;
+      position: relative;
+      left: 25%;
+  }
+  .video-flex{
       width: 100%;
-      display: flex;
-      position: relative;
-      left: 0%;
+      bottom:15vh;
+      scale: 1;
   }
-  .video-flex{
-      top:0vh;
-      scale: 2.5;
+  .contenedor-grande{ /*********************************/
+      width: 50%;  
+      height:100vh;
+      left: 25%;
+  }
+
+  .contenedor-mediano{ /*********************************/
+    width: 50%;  
+    height:100vh;
+    left: 25%;
+}
+.contenedor-chico{ /*********************************/
+  width: 50%;  
+  height:50vh;
+  left: 25%;
+}
+.contenedor-extra-chico{ /*********************************/
+  width: 50%;  
+  height:50vh;
+  left: 25%;
+}
+
+  .left-slide{
+    transition: transform ease 2.5s;
+    transform: rotate(180deg) translateX(70%) translateY(20%);
+    scale: .7;
+  }
+  .left-slide-on{
+    transform: rotate(180deg) translateX(25%) translateY(20%);
+  } 
+  .right-slide{
+   
+ 
+    transition: transform ease 2.5s;
+    transform: rotate(0deg) translateX(70%) translateY(20%);
+    scale: .7;/****/
+  }
+  .right-slide-on{
+    transform: rotate(0deg) translateX(25%) translateY(20%);
+  }
+
+  .imagen-jumbo{
+    width: 65%;
+  }
+
+  .imagen-extra-grande{
+    width: 35%;
+  }
+  .imagen-grande{
+    width: 30%;
+  }
+
+  .texto-en-imagen{
+    display: none;
+  }
+
+  .cover-button{
+    position: relative;
+    top: 30vh;
+    font-size:25px;
   }
 }
 
-@media (min-width:768px ) { /**********************/
+
+
+
+
+/*******************************************************/
+/*******************************************************/
+/*******************************************************/
+/************ M E D I A  F O R   T A B L E T S**********/
+/*******************************************************/
+/*******************************************************/
+
+
+@media (min-width:668px ) and (max-width:1024px)  { /**********************/
   .flex-container{
-      width: 70%;
+      width: 80%;
       display: flex;
       position: relative;
-      left: 15%;
+      left: 10%;
   }
   .video-flex{
-      top:0vh;
-      scale: 2.5;
+      width: 100%;
+      bottom:15vh;
+      scale: 1.1;
+  }
+  .contenedor-grande{ /*********************************/
+      width: 80%;  
+      height:100vh;
+      left: 10%;
+  }
+
+  .contenedor-mediano{ /*********************************/
+    width: 80%;  
+    height:65vh;
+    left: 10%;
+}
+.contenedor-chico{ /*********************************/
+  width: 80%;  
+  height:50vh;
+  left: 10%;
+}
+.contenedor-extra-chico{ /*********************************/
+  width: 80%;  
+  height:30vh;
+  left: 10%;
+}
+
+  .left-slide{
+    transition: transform ease 2.5s;
+    transform: rotate(180deg) translateX(70%) translateY(20%);
+    scale: .7;
+  }
+  .left-slide-on{
+    transform: rotate(180deg) translateX(25%) translateY(20%);
+  } 
+  .right-slide{
+   
+ 
+    transition: transform ease 2.5s;
+    transform: rotate(0deg) translateX(70%) translateY(20%);
+    scale: .7;/****/
+  }
+  .right-slide-on{
+    transform: rotate(0deg) translateX(25%) translateY(20%);
+  }
+
+  .imagen-jumbo{
+    width: 65%;
+  }
+
+  .imagen-extra-grande{
+    width: 35%;
+  }
+  .imagen-grande{
+    width: 30%;
+  }
+
+  .texto-en-imagen{
+    display: none;
+  }
+
+  .cover-button{
+    position: relative;
+    top: 30vh;
+    font-size:25px;
   }
 }
 
-@media (min-width:1200px ) { /**********************/
-  .flex-container{
-      width: 60%;
-      display: flex;
-      position: relative;
-      left: 20%;
-  }
-  .video-flex{
-      top:15vh;
-      scale: 2.5;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
