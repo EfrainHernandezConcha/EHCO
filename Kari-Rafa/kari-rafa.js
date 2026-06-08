@@ -239,3 +239,4 @@ function appearScroll() {
 }
 window.addEventListener('scroll', appearScroll);
 
+document.location.reload(true);
