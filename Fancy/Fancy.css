@@ -169,6 +169,7 @@ body{
   justify-content:center;
   text-align: center;
   overflow-x: hidden;
+  overflow-y: visible;
 }
 
 .sticky{
@@ -189,6 +190,7 @@ body{
   justify-content:center;
   text-align: center;
   overflow-x: hidden;
+  overflow-y: visible;
 }
 .contenedor-sticky-ch{
   position: sticky;
@@ -201,6 +203,7 @@ body{
   justify-content:center;
   text-align: center;
   overflow-x: hidden;
+  overflow-y: visible;
 }
 .contenedor-sticky-sp{
   position: sticky;
@@ -213,6 +216,7 @@ body{
   justify-content:center;
   text-align: center;
   overflow-x: hidden;
+  overflow-y: visible;
 }
 
 
