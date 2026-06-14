@@ -1,5 +1,8 @@
 body{
   margin:0;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
 }
 
 /*Fonta families*/
@@ -168,8 +171,7 @@ body{
   align-items: center;
   justify-content:center;
   text-align: center;
-  overflow-x: hidden;
-  overflow-y: visible;
+
 }
 
 .sticky{
@@ -189,8 +191,7 @@ body{
   align-items: center;
   justify-content:center;
   text-align: center;
-  overflow-x: hidden;
-  overflow-y: visible;
+
 }
 .contenedor-sticky-ch{
   position: sticky;
@@ -203,7 +204,7 @@ body{
   justify-content:center;
   text-align: center;
   overflow-x: hidden;
-  overflow-y: visible;
+ 
 }
 .contenedor-sticky-sp{
   position: sticky;
@@ -215,8 +216,7 @@ body{
   align-items: center;
   justify-content:center;
   text-align: center;
-  overflow-x: hidden;
-  overflow-y: visible;
+
 }
 
 
@@ -587,7 +587,7 @@ width: 40%;
   text-align:center;
   justify-content:center;
   align-items: center;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.8);
 
 }
 
