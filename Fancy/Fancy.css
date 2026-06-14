@@ -160,7 +160,7 @@ body{
 
 .contenedor-sticky-gd{
   position: sticky;
-  top: 0;
+  top: 0vh;
   width: 100%;
   height: 100vh;
   z-index: 2;
@@ -180,7 +180,7 @@ body{
 
 .contenedor-sticky-md{
   position: sticky;
-  top: 0;
+  top: 0vh;
   width: 100%;
   height: 75vh;
   z-index: 2;
@@ -192,7 +192,7 @@ body{
 }
 .contenedor-sticky-ch{
   position: sticky;
-  top: 0;
+  top: 0vh;
   width: 100%;
   height: 50vh;
   z-index: 2;
@@ -204,7 +204,7 @@ body{
 }
 .contenedor-sticky-sp{
   position: sticky;
-  top: 0;
+  top: 0vh;
   width: 100%;
   height: 35vh;
   z-index: 4;
