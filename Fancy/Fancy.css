@@ -226,9 +226,40 @@ body{
 
 
 
-.contenedor-main{/***************/
+.contenedor-top-foot{/***************/
   width: 100%;
   height: 100vh;
+
+}
+
+.topping{/***********************/
+  position: relative;
+  
+  width: 100%;
+  height: 25vh;
+  top: 0vh;
+
+}
+
+.footer{/***********************/
+  position: relative;
+
+  width: 100%;
+  height: 25vh;
+  top: 50%;
+
+}
+
+
+.topping-text{
+  position: inherit;
+  top: 0vh;
+}
+
+
+.floating-text{
+  z-index: 2;
+  width: 100%;
 }
 
 .contenedor-grande{
@@ -373,28 +404,7 @@ width: 40%;
 }
 
 
-.topping{/***********************/
-  position: relative;
-  width: 100%;
-}
 
-.footer{/***********************/
-  position: relative;
-  width: 100%;
-  top: 50vh;
-}
-
-
-.topping-text{
-  position: inherit;
-  top: 0vh;
-}
-
-
-.floating-text{
-  z-index: 2;
-  width: 100%;
-}
 /*IMAGES*/
 /********************************************************************************/
 /********************************************************************************/
