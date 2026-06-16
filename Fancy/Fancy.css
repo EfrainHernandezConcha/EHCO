@@ -143,18 +143,14 @@ body{
 
 .text-top{/*********/
   position: relative;
-  bottom: 50vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
 }
 
 .text-bottom{/*********/
   position: relative;
-  top: 33vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  top: 85vh;
+
+
 }
 
 /*Contenedores-espaciador*/
@@ -171,7 +167,6 @@ body{
   align-items: center;
   justify-content:center;
   text-align: center;
-
 }
 
 .sticky{
@@ -191,7 +186,6 @@ body{
   align-items: center;
   justify-content:center;
   text-align: center;
-
 }
 .contenedor-sticky-ch{
   position: sticky;
@@ -227,27 +221,30 @@ body{
 
 
 .contenedor-top-foot{/***************/
+  position: relative;
   width: 100%;
   height: 100vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 
 }
 
 .topping{/***********************/
-  position: relative;
-  
+  position:absolute;
   width: 100%;
   height: 25vh;
+  left: 0%;
   top: 0vh;
 
 }
 
 .footer{/***********************/
-  position: relative;
-
+  position: absolute;
   width: 100%;
-  height: 25vh;
-  top: 50%;
-
+  height: 30vh;
+  left: 0%;
+  top: 70vh;
 }
 
 
@@ -275,6 +272,7 @@ body{
   border-style: none;
   z-index: 9;
 }
+
 
 .contenedor-mediano{
   display:flex; /*flex*/
@@ -514,12 +512,12 @@ width: 40%;
 .zoom{ /*Clase para hacer zoom en conjunto con la clase ".zoom-on" la cual trabaja con Javascript.
   Se agrega la clase a un elemento "img" que este dentro de un elemento "div" con la clase
   "container-img"    */
-  transition: transform ease 4s, opacity 0.5s ;
-  transform: scale(.4);
+  transition: transform ease 8s, opacity 0.5s ;
+  transform: scale(.5);
 }
 
 .zoom-on{
-  transform: scale(.5);
+  transform: scale(.7);
   opacity: 1;
 }
 

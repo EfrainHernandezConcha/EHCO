@@ -162,11 +162,11 @@ const fechaObjetivo = new Date("Dec 05, 2026 16:00:00").getTime();
 
         // zoom-out
         gsap.from("#zoom-out-1", {
-            scale: .5, stagger: 0.25, duration: 1,
+            scale: .9, stagger: 0.25, duration: 1,
             scrollTrigger: {
                 trigger: "#zoom-out-1",
                 pin: false,
-                end: `+=${innerHeight * 8}`,
+                end: `+=${innerHeight * 1.2}`,
                 scrub: 3
             }
         });
@@ -188,7 +188,7 @@ const fechaObjetivo = new Date("Dec 05, 2026 16:00:00").getTime();
           scrollTrigger: {
               trigger: "#zoom-out-3",
               pin: false,
-              end: `+=${innerHeight * 14}`,
+              end: `+=${innerHeight * 12}`,
               scrub: 3
           }
       });
